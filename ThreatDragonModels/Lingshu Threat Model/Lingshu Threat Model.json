@@ -20,7 +20,7 @@
           {
             "position": {
               "x": 285.99999999999886,
-              "y": 195.0000000000004
+              "y": 195.00000000000045
             },
             "size": {
               "width": 490,
@@ -37,7 +37,6 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [
-                "5e664478-de33-4c88-99c7-618745ec3867",
                 "814476fa-819b-4c38-99ce-dfb6f879c50e",
                 "a086d41c-98ad-49df-95cc-e4b3e6f52528",
                 "1ff6eeb3-828a-42bd-b118-5a892531d58f",
@@ -617,55 +616,6 @@
                 "y": 490
               }
             ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "数据流",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "a68b814c-9442-4df0-b3bb-192fd88e328e"
-              ]
-            },
-            "labels": [
-              "数据流"
-            ],
-            "id": "5e664478-de33-4c88-99c7-618745ec3867",
-            "source": {
-              "cell": "d7098716-b009-4ceb-a213-95ff3665fca5",
-              "port": "92e072c1-395e-4e8d-8e85-abc3108c2f89"
-            },
-            "target": {
-              "x": 390,
-              "y": 420
-            },
-            "vertices": []
           },
           {
             "shape": "flow",
