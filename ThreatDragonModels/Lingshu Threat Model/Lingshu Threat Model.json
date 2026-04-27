@@ -28,8 +28,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "a68b814c-9442-4df0-b3bb-192fd88e328e",
             "zIndex": -1,
+            "id": "a68b814c-9442-4df0-b3bb-192fd88e328e",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "信任边界",
@@ -64,17 +64,17 @@
           },
           {
             "position": {
-              "x": 870.9999999999989,
-              "y": 164.000000000003
+              "x": 880,
+              "y": 165.00000000000045
             },
             "size": {
-              "width": 460,
+              "width": 540,
               "height": 430
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "8f289d1e-2350-429f-aa75-6a366632d815",
             "zIndex": -1,
+            "id": "8f289d1e-2350-429f-aa75-6a366632d815",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "信任边界",
@@ -103,7 +103,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Ngin"
+                "text": "Nginx"
               },
               "body": {
                 "stroke": "#333333",
@@ -113,6 +113,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -196,10 +197,9 @@
               ]
             },
             "id": "d7098716-b009-4ceb-a213-95ff3665fca5",
-            "zIndex": 1,
             "data": {
               "type": "tm.Process",
-              "name": "Nginx",
+              "name": "Nginx1",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -223,7 +223,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Web rowser"
+                "text": "Web Browser"
               },
               "body": {
                 "stroke": "#333333",
@@ -233,6 +233,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -316,10 +317,9 @@
               ]
             },
             "id": "6dbac144-d952-4849-9cf2-1365013cf0ce",
-            "zIndex": 2,
             "data": {
               "type": "tm.Actor",
-              "name": "Web Browser",
+              "name": "Web Browser2",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -340,7 +340,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Coding Agen"
+                "text": "Coding Agent"
               },
               "body": {
                 "stroke": "#333333",
@@ -350,6 +350,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -433,10 +434,9 @@
               ]
             },
             "id": "012b9f9d-1b16-494f-9168-c2c7c27a858d",
-            "zIndex": 3,
             "data": {
               "type": "tm.Actor",
-              "name": "Coding Agent",
+              "name": "Coding Agent1",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -448,16 +448,16 @@
           },
           {
             "position": {
-              "x": 430,
-              "y": 430
+              "x": 405.99999999999886,
+              "y": 470
             },
             "size": {
-              "width": 60,
-              "height": 60
+              "width": 90,
+              "height": 90
             },
             "attrs": {
               "text": {
-                "text": "LingshuPorta"
+                "text": "LingshuPortal"
               },
               "body": {
                 "stroke": "#333333",
@@ -467,6 +467,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -550,10 +551,9 @@
               ]
             },
             "id": "3033294b-f5eb-44cc-9d8d-0f60b90e9a97",
-            "zIndex": 4,
             "data": {
               "type": "tm.Process",
-              "name": "LingshuPortal",
+              "name": "LingshuPortal1",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -613,8 +613,8 @@
             },
             "vertices": [
               {
-                "x": 370,
-                "y": 450
+                "x": 340,
+                "y": 490
               }
             ]
           },
@@ -1601,7 +1601,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Gatewa"
+                "text": "Gateway"
               },
               "body": {
                 "stroke": "#333333",
@@ -1611,6 +1611,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -1694,10 +1695,9 @@
               ]
             },
             "id": "a444c279-5226-48ca-b5e2-f2ccc42aec2e",
-            "zIndex": 11,
             "data": {
               "type": "tm.Process",
-              "name": "Gateway",
+              "name": "Gateway1",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1713,15 +1713,15 @@
           {
             "position": {
               "x": 640,
-              "y": 240
+              "y": 240.00000000000006
             },
             "size": {
-              "width": 60,
-              "height": 60
+              "width": 120,
+              "height": 100
             },
             "attrs": {
               "text": {
-                "text": "LingshuManage"
+                "text": "LingshuManager"
               },
               "body": {
                 "stroke": "#333333",
@@ -1731,6 +1731,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -1814,10 +1815,9 @@
               ]
             },
             "id": "7f88664c-faaa-4d2b-abda-76dce673bbcf",
-            "zIndex": 12,
             "data": {
               "type": "tm.Process",
-              "name": "LingshuManager",
+              "name": "LingshuManager1",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1836,12 +1836,12 @@
               "y": 400
             },
             "size": {
-              "width": 60,
-              "height": 60
+              "width": 100,
+              "height": 90
             },
             "attrs": {
               "text": {
-                "text": "LingshuRutime"
+                "text": "LingshuRuntime"
               },
               "body": {
                 "stroke": "#333333",
@@ -1851,6 +1851,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 13,
             "ports": {
               "groups": {
                 "top": {
@@ -1934,10 +1935,9 @@
               ]
             },
             "id": "ece7716e-1fc7-4b5a-963d-726c2e7d4acb",
-            "zIndex": 13,
             "data": {
               "type": "tm.Process",
-              "name": "LingshuRuntime",
+              "name": "LingshuRuntime1",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1953,15 +1953,15 @@
           {
             "position": {
               "x": 925,
-              "y": 290.0000000000002
+              "y": 260.0000000000002
             },
             "size": {
-              "width": 60,
-              "height": 60
+              "width": 100,
+              "height": 90
             },
             "attrs": {
               "text": {
-                "text": "Jumpe"
+                "text": "Jumper"
               },
               "body": {
                 "stroke": "#333333",
@@ -1971,6 +1971,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 14,
             "ports": {
               "groups": {
                 "top": {
@@ -2054,10 +2055,9 @@
               ]
             },
             "id": "2586f3eb-2177-4b06-a978-43fe8146e829",
-            "zIndex": 14,
             "data": {
               "type": "tm.Process",
-              "name": "Jumper",
+              "name": "Jumper1",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2072,16 +2072,16 @@
           },
           {
             "position": {
-              "x": 690,
+              "x": 680,
               "y": 40
             },
             "size": {
-              "width": 112.5,
+              "width": 200,
               "height": 60
             },
             "attrs": {
               "text": {
-                "text": "HiDevLa"
+                "text": "HiDevLab"
               },
               "body": {
                 "stroke": "#333333",
@@ -2091,6 +2091,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 15,
             "ports": {
               "groups": {
                 "top": {
@@ -2174,10 +2175,9 @@
               ]
             },
             "id": "2dfe33ed-f2f8-48f9-ae49-52c77fdb62ad",
-            "zIndex": 15,
             "data": {
               "type": "tm.Actor",
-              "name": "HiDevLab",
+              "name": "HiDevLab1",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -2189,7 +2189,7 @@
           },
           {
             "position": {
-              "x": 453.75,
+              "x": 460,
               "y": 40
             },
             "size": {
@@ -2198,7 +2198,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Open'Lib'ing"
+                "text": "OpenLibing"
               },
               "body": {
                 "stroke": "#333333",
@@ -2208,6 +2208,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 16,
             "ports": {
               "groups": {
                 "top": {
@@ -2291,10 +2292,9 @@
               ]
             },
             "id": "064ad2fa-5829-4c40-830e-7b32e99189c2",
-            "zIndex": 16,
             "data": {
               "type": "tm.Actor",
-              "name": "OpenLibing",
+              "name": "OpenLibing1",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -2306,16 +2306,16 @@
           },
           {
             "position": {
-              "x": 1063,
+              "x": 1080,
               "y": 290
             },
             "size": {
-              "width": 60,
-              "height": 60
+              "width": 160,
+              "height": 100
             },
             "attrs": {
               "text": {
-                "text": "HiDevLabVP"
+                "text": "HiDevLabVPN"
               },
               "body": {
                 "stroke": "#333333",
@@ -2325,6 +2325,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 17,
             "ports": {
               "groups": {
                 "top": {
@@ -2408,10 +2409,9 @@
               ]
             },
             "id": "d191185a-3d84-420a-972e-320e6f6320fb",
-            "zIndex": 17,
             "data": {
               "type": "tm.Process",
-              "name": "HiDevLabVPN",
+              "name": "HiDevLabVPN1",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2426,16 +2426,16 @@
           },
           {
             "position": {
-              "x": 1220,
-              "y": 290
+              "x": 1290,
+              "y": 250.00000000000023
             },
             "size": {
-              "width": 60,
-              "height": 60
+              "width": 110,
+              "height": 100
             },
             "attrs": {
               "text": {
-                "text": "ModelInstanc"
+                "text": "ModelInstance"
               },
               "body": {
                 "stroke": "#333333",
@@ -2445,6 +2445,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 18,
             "ports": {
               "groups": {
                 "top": {
@@ -2528,10 +2529,9 @@
               ]
             },
             "id": "19922f98-b30b-4d66-85a4-fedafafa632c",
-            "zIndex": 18,
             "data": {
               "type": "tm.Process",
-              "name": "ModelInstance",
+              "name": "ModelInstance1",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2555,7 +2555,7 @@
             },
             "attrs": {
               "text": {
-                "text": "My'SQ"
+                "text": "MySQL"
               },
               "topLine": {
                 "strokeWidth": 1.5,
@@ -2568,6 +2568,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 19,
             "ports": {
               "groups": {
                 "top": {
@@ -2651,10 +2652,9 @@
               ]
             },
             "id": "0469e7b1-ab53-4856-8e46-6b9df044673c",
-            "zIndex": 19,
             "data": {
               "type": "tm.Store",
-              "name": "MySQL",
+              "name": "MySQL1",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2679,7 +2679,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Redi"
+                "text": "Redis"
               },
               "topLine": {
                 "strokeWidth": 1.5,
@@ -2692,6 +2692,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 20,
             "ports": {
               "groups": {
                 "top": {
@@ -2775,10 +2776,9 @@
               ]
             },
             "id": "7a5757e6-fe34-4930-8f19-79a26f055fe5",
-            "zIndex": 20,
             "data": {
               "type": "tm.Store",
-              "name": "Redis",
+              "name": "Redis1",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2803,7 +2803,7 @@
             },
             "attrs": {
               "text": {
-                "text": "OB"
+                "text": "OBS"
               },
               "topLine": {
                 "strokeWidth": 1.5,
@@ -2816,6 +2816,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 21,
             "ports": {
               "groups": {
                 "top": {
@@ -2899,10 +2900,9 @@
               ]
             },
             "id": "ae96b003-9fb2-4648-9828-1a9f66abeed4",
-            "zIndex": 21,
             "data": {
               "type": "tm.Store",
-              "name": "OBS",
+              "name": "OBS1",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2927,7 +2927,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Apoll"
+                "text": "Apollo"
               },
               "topLine": {
                 "strokeWidth": 1.5,
@@ -2940,6 +2940,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 22,
             "ports": {
               "groups": {
                 "top": {
@@ -3023,10 +3024,9 @@
               ]
             },
             "id": "6dcb7e59-b5c6-42b2-9371-50f773d0d7da",
-            "zIndex": 22,
             "data": {
               "type": "tm.Store",
-              "name": "Apollo",
+              "name": "Apollo1",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -3051,7 +3051,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Prometheu"
+                "text": "Prometheus"
               },
               "topLine": {
                 "strokeWidth": 1.5,
@@ -3064,6 +3064,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 23,
             "ports": {
               "groups": {
                 "top": {
@@ -3147,10 +3148,9 @@
               ]
             },
             "id": "2944e4fa-47ed-4de1-a2e2-178052256776",
-            "zIndex": 23,
             "data": {
               "type": "tm.Store",
-              "name": "Prometheus",
+              "name": "Prometheus1",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
